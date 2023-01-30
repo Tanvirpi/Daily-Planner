@@ -32,10 +32,16 @@ function saveData(){
 
   var getData= document.getElementById('textarea-'+id).value
   console.log(getData,id);
-  localStorage.setItem(id,getData)
+  localStorage.setItem(id,getData)  //Key / value
 }
 
-
+for(let i=9;i<=17;i++)
+{
+  var id = "textarea-"+i
+  var data = localStorage.getItem(i)
+  console.log(id,data)
+  document.getElementById(id).value = data
+}
 $(function () {
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
