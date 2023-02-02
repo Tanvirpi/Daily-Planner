@@ -28,11 +28,11 @@ THEN the saved events persist
 ```
 
 ### Deployed Link
-[Live](https://tanvirpi.github.io/Timed-Quiz/)
+[Live](https://tanvirpi.github.io/Daily-Planner/)
 
 ### Screenshot
 
-![Image](https://github.com/Tanvirpi/Timed-Quiz/blob/main/Screenshot.png)
+![Image](https://github.com/Tanvirpi/Daily-Planner/blob/main/Screenshot.png)
 
 
 ### References
